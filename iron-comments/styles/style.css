@@ -8,7 +8,7 @@ body {
 }
 
 #form-container {
-    width: 250px;
+    width: 198px;
     align-items: center;
     border: 2px solid;
     border-color: rgb(67, 163, 230);
@@ -21,6 +21,7 @@ body {
 fieldset {
     color: rgb(255, 255, 255);
     border: none;
+    width: 198px;
 }
 
 .button {
@@ -29,13 +30,26 @@ fieldset {
     border-style: none;
     border-radius: 10px 10px 10px 10px;
     padding: 5px;
-    width: 50px;
+    width: auto;
+}
+
+#acept {
+    display: inline;
 }
 
 input{
     width: 100%;
 }
 
-#checkbutton {
-    width: 200px;
+input#marcado {
+    width: 20px;
+    margin-left: 19px;
+}
+
+textarea{
+    width: 198px;
+}
+
+input#submit {
+    width: 50px;
 }
