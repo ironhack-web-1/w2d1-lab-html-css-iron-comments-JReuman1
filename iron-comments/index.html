@@ -7,13 +7,37 @@
     
     <title> Iron Comments </title>
     
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
-    </form>
+    <form id="form-container" action="" method="get">
+
+        <fieldset class="centrado">
+            <label for="Name">Name:</label><br>
+            <input type="text" value="">
+        </fieldset>
+        
+        <fieldset class="centrado">
+            <label for="Email">Email:</label><br>
+            <input type="email" value="">
+        </fieldset>
+        
+        <fieldset class="centrado">
+            <label for="Comment">Comment:</label><br>
+            <textarea value="Comment" cols="25" rows="10">
+            </textarea>
+        </fieldset>
+
+        <fieldset id ="acept">
+            <label for ="marcado"><i>Receive email uptades?</i></label>
+            <input id="marcado" type="checkbox" value="aceptEmails">
+        </fieldset>
+        
+        <fieldset>
+            <input class="button" type="submit" value="Submit">
+        </fieldset>
+            </form>
 
 </body>
 </html>

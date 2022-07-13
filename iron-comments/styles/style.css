@@ -2,10 +2,54 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;
+    background-color: rgb(25, 33, 41);    
 
 }
 
 #form-container {
+    width: 198px;
+    align-items: center;
+    border: 2px solid;
+    border-color: rgb(67, 163, 230);
     margin: auto;
+    padding-top: 30px;
+    padding-right: 50px;
+    
+}
+
+fieldset {
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 198px;
+}
+
+.button {
+    background: rgb(67, 163, 230);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    width: auto;
+}
+
+#acept {
+    display: inline;
+}
+
+input{
+    width: 100%;
+}
+
+input#marcado {
+    width: 20px;
+    margin-left: 19px;
+}
+
+textarea{
+    width: 198px;
+}
+
+input#submit {
+    width: 50px;
 }
